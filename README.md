@@ -4,7 +4,7 @@ Learn git bash using 10 minutes a day
 ## Session 1: Create a repository change files commit and push to main
 
 Using your git repository of choice, [Github](https://github.com/) for example.
-1. Create new reposiotory through web interface
+1. Create new repository through web interface
 2. Clone
 3. Modify readme 
 4. Commit with message
@@ -12,21 +12,25 @@ Using your git repository of choice, [Github](https://github.com/) for example.
 
 ### Create repository
 
-Create a repository through your repositories website then copy the repository's url and open any type of command line interface. I'm going to be using git bash, on your CLI execute the clone command.
-1. Create new repository 
-2. Copy url or use interface
-3. Open up your CLI execute clone command
-
-There are 2 ways of creating a new repository on you git website:
+There are 2 ways of creating a new repository on your git website:
 > Got to your profile page, that would be https://github.com/[your-user-name-here]
 
 1. Click on repositories tab then on new
-2. At the top right of your page ther is a + dropdown and there you can select new repository
+2. At the top right of your page there is a **+** dropdown and there you can select new repository
 
-When done with eiter of the former:
+*On repositories tab click new button*
+
+![alt text](./docs/00-Create-from-repositories-tab.PNG "Create from repository's tab")
+
+
+*Top right dropdown*
+
+![alt text](./docs/01-Create-repo-from-profile-dropdown.png "Create from add drop down beside profile")
+
+When done with either of the former:
 
 1. Name your repository
-2. Fill up your despcription
+2. Fill up your description
 3. Choose if you want your repo public or private
 4. Click on *Create repository*
 
@@ -45,7 +49,7 @@ There are 2 ways to get your repository url:
 *Click Code makes sure you are on the Https tab and copy to clipboard*
 ![alt text](./docs/03-Get_repositories_url.png "Get repository url")
 
-Now open up a command prompt on your computer, navigate to your favorite folder for storing source code and clone your repository. Your git clone command is tipicaly
+Now open up a command prompt on your computer, navigate to your favourite folder for storing source code and clone your repository. Your git clone command is typically
 as follows
 
 ```
@@ -63,6 +67,10 @@ git clone [url-to-your-repo]
 3. Add your modified files as staged
 4. Create a commit with a message
 5. Push your commit to main
+
+*Status, add staged files, create a commit with a message and push*
+
+![alt text](./docs/05-git%20staus_commit_push.PNG "Status, stage, commit with message and push")
 
 ## Session 2: Create a new branch add changes, commit and push
 
