@@ -62,11 +62,12 @@ git clone [url-to-your-repo]
 
 ### Commiting changes and pushing them
 
-1. Change add text to README.md file
-2. Run git status to see your modified files
-3. Add your modified files as staged
-4. Create a commit with a message
-5. Push your commit to main
+1. Navigate to your cloned repository folder
+2. Change add text to README.md file
+3. Run git status to see your modified files
+4. Stage your modified files with the add command
+5. Create a commit with a message
+6. Push your commit to main
 
 *Status, add staged files, create a commit with a message and push*
 
