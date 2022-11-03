@@ -81,3 +81,15 @@ git branch
 ``` 
 This will list your branches
 
+### Branching
+
+Lets create a new branch with the following command
+```
+git branch feature/hell-oworld
+```
+
+Once the former command gets executed a new branch will be created. If we execute the introductions command (git branch) now we will have main and our new branch creted.
+
+As you can see the asterix is still on main, so eventhough we created a new branch we are not using it yet.
+
+Let's make a [change commit an push](./) on main.
