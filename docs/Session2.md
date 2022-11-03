@@ -29,10 +29,6 @@ git checkout feature/hello-world
 If you run your branch command again you can see that the asterisk is at feature/hello-world
 ![alt text](./imgs/07-checkout_branch.PNG "Create a branch")
 
-Let's make a [change commit an push](./Session1.md#commiting-changes-and-pushing-them) on our branch. 
-
-## Setting upstrream
-
 As your an see when you try to push your changes, the command prompt tells you that you have no remote branch that tracks your local
 
 ![alt text](./imgs/08-set_upstream.PNG "Create a branch on origin")
@@ -62,10 +58,3 @@ Go to your git website interface and select branches tab
 ![alt text](./imgs/10-git-website-branches.png "Git website branches")
 Search for the branch you want to delete and click on the trash bin icon
 ![alt text](./imgs/10-git-website-branches.png "Git website delete old branches")
-
-## Create and checkout branch
-
-If you want to create a branch and checkout in one go, you can use the following command
-```
-git checkout -b feature/hello-wold-again
-```
