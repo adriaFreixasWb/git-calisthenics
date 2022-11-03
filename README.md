@@ -90,12 +90,18 @@ git branch feature/hello-world
 
 Once the former command gets executed a new branch will be created. If we execute the introductions command (git branch) now we will have main and our new branch created.
 
-![alt text](.//docs/06-create_branch.png "Create a branch")
+![alt text](./docs/06-create_branch.png "Create a branch")
 
-As you can see the asterisk is still on main, so even though we created a new branch we are not using it yet.
+As you can see the asterisk is still on main, so even though we created a new branch we are not using it yet. To that end let's use the following command
 
-Let's make a [change commit an push](#commiting-changes-and-pushing-them) on main. Once the changes are pushed to main, we will switch branches with the following command.
 ```
 git checkout feature/hello-world
 ```
 If you run your branch command again you can see that the asterisk is at feature/hello-world
+![alt text](./docs/07-checkout_branch.png "Create a branch")
+
+Let's make a [change commit an push](#commiting-changes-and-pushing-them) on our branch. As your an see when you try to push your changes, the command prompt tells you that you have no remote branch that tracks your local
+
+```
+git set -upstream
+```
