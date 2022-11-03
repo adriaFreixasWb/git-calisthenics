@@ -101,10 +101,11 @@ If you run your branch command again you can see that the asterisk is at feature
 ![alt text](./docs/07-checkout_branch.png "Create a branch")
 
 Let's make a [change commit an push](#commiting-changes-and-pushing-them) on our branch. As your an see when you try to push your changes, the command prompt tells you that you have no remote branch that tracks your local
-![alt text](./docs/08-set-upstream.png "Create a branch")
+![alt text](./docs/08-set-upstream.png "Create a branch on origin")
 ```
 git push --set-upstream origin feature/hello-world
 ```
 
 Once your done pushing, checkout main again and merge feature/hello-world commit and push. Then when you are done delete feature/hello-world branch
 
+![alt text](./docs/09-merge-to-main-and-delete branch.png "Create a branch on origin")
