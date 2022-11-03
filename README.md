@@ -98,15 +98,30 @@ As you can see the asterisk is still on main, so even though we created a new br
 git checkout feature/hello-world
 ```
 If you run your branch command again you can see that the asterisk is at feature/hello-world
-![alt text](./docs/imgs/07-checkout_branch.png "Create a branch")
+![alt text](./docs/imgs/07-checkout_branch.PNG "Create a branch")
 
 Let's make a [change commit an push](#commiting-changes-and-pushing-them) on our branch. As your an see when you try to push your changes, the command prompt tells you that you have no remote branch that tracks your local
 
-![alt text](./docs/imgs/08-set-upstream.png "Create a branch on origin")
+![alt text](./docs/imgs/08-set_upstream.PNG "Create a branch on origin")
 ```
 git push --set-upstream origin feature/hello-world
 ```
 
-Once your done pushing, checkout main again and merge feature/hello-world commit and push. Then when you are done delete feature/hello-world branch
+Once your done pushing:
+1. checkout main 
+2. merge feature/hello-world 
+3. push 
+4. delete feature/hello-world branch
 
-![alt text](./docs/imgs/09-merge_to_main_and_delete_branch.png "Create a branch on origin")
+*To delete your branch user*
+```
+git branch [your-branch-name] --delete
+```
+
+![alt text](./docs/imgs/09-merge_to_main_and_delete_branch.PNG "Create a branch on origin")
+
+Bear in mind the the former command only deletes your local branch. To delete your remote branchs: 
+
+Go to your git website interface and select branches tab
+
+Search for the branch you want to delete and click on the trash bin icon
