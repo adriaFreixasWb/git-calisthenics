@@ -92,4 +92,4 @@ Once the former command gets executed a new branch will be created. If we execut
 
 As you can see the asterix is still on main, so eventhough we created a new branch we are not using it yet.
 
-Let's make a [change commit an push](./) on main.
+Let's make a [change commit an push](#commiting-changes-and-pushing-them) on main.
