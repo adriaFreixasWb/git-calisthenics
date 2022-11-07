@@ -58,3 +58,11 @@ Go to your git website interface and select branches tab
 ![alt text](./imgs/10-git-website-branches.png "Git website branches")
 Search for the branch you want to delete and click on the trash bin icon
 ![alt text](./imgs/10-git-website-branches.png "Git website delete old branches")
+
+## You can short hand it
+
+With the following command you can do create and checkout with a single line
+
+```
+git checkout -b "feature/hello-world"
+```
