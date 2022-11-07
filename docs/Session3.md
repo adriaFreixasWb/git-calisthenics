@@ -40,8 +40,11 @@ git restore README.md
 Now switch branches again to feature/parallel-commit and merge master into your current branch
 ```
 git checkout feature/parallel-commit
-git merge master
+git merge main
 ```
+
+> Whatch out because now master will have overriden your changes and you need to redo them again.
+
 Now you had a fast forward merge so you can go back to:
 1. checkout main 
 2. merge feature/parallel-commit
