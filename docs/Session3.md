@@ -6,14 +6,14 @@ Up to now it's been pretty straight forward, change source code, stage changes, 
 
 In this instance we are going to emulate 2 different developers working at the same time.
 
-Create a [new branch](Session2.md#Branching) called **feature/parallel-commit** but don't check it our yet.
-Now make sure your on main branche, do some changes on your README.md, stage them and commit.
+Create a [new branch](Session2.md#Branching) called **feature/parallel-commit** but don't check it out yet.
+Now make sure you are on main branch, do some changes on your README.md, stage them and commit.
 
-Now [checkout](Session2.md#checkout-a-branch) feature/parallel-commit and make different changes ton your README.md file, stage, commit and push them.
+Now [checkout](Session2.md#checkout-a-branch) feature/parallel-commit and make different changes to your README.md file, stage, commit and push them.
 
-## Mergin branches
+## Merging branches
 
-To marge to different branches you need to be on the branch where your want add the changes to. Usually that would be main.
+To marge two different branches you need to be on the branch where you want add the changes to. Usually that would be main.
 
 For example:
 ```
@@ -25,15 +25,15 @@ git merge feature/parallel-commit
 
 When merging if your changes go smoothly (no conflit) this is know as **fast-forward** merge.
 
-On the last section we tried to merge a branch to branches: 
+On last section we tried to merge a two branches: 
 - feature/parallel-commit (that was one commit behind main)
 - main that has changes on the same file as the merging branch
 
-The simplest way to solf this conflict is to reset your main branch.
+The simplest way to solve this conflict is to reset your main branch.
 ```
 git reset 
 ```
-The with git status you will get your pending changes, this will tell you that you can restore your README to its original state.
+With git status you will get your pending changes, this will tell you that you can restore your README to its original state.
 ```
 git restore README.md
 ```
