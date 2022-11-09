@@ -41,8 +41,8 @@ Now switch branches again to feature/parallel-commit and merge master into your 
 ```
 git checkout feature/parallel-commit
 git merge main
-git merge --abort
-git pull -X theirs
+git checkout --theirs README.md
+git add README.md
 ```
 
 > Whatch out because now master will have overriden your changes and you need to redo them again.
