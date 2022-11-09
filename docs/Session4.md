@@ -9,4 +9,5 @@ How to rename a branch. The easiest way to rename a branch is:
 git push origin --delete [your-original-branch-name]
 ```
 
+This is a change made from a branch
 
