@@ -5,3 +5,4 @@ Learn git bash using 10 minutes a day
 - [Session 2: Create a new branch add changes, commit and push](./docs/Session2.md)
 - [Session 3: Conflict resolution](./docs/Session3.md)
 - [Session 4: Rename your branch](./docs/Session4.md)
+This is diff from feature branch
