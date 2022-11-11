@@ -17,12 +17,12 @@ There are 2 ways of creating a new repository on your git website:
 
 *On repositories tab click new button*
 
-![alt text](./docs/imgs/00-Create_from_repositories_tab.PNG "Create from repository's tab")
+![alt text](/docs/imgs/00-Create_from_repositories_tab.PNG "Create from repository's tab")
 
 
 *Top right dropdown*
 
-![alt text](./docs/imgs/01-Create_repo_from_profile_dropdown.png "Create from add drop down beside profile")
+![alt text](/docs/imgs/01-Create_repo_from_profile_dropdown.png "Create from add drop down beside profile")
 
 When done with either of the former:
 
@@ -35,7 +35,7 @@ When done with either of the former:
 *Create and name repository through web site*
 
 
-![alt text](./docs/imgs/02-Create_and_name_your_repository.png "Create and name repository")
+![alt text](/docs/imgs/02-Create_and_name_your_repository.png "Create and name repository")
 
 ## Clone your repository
 
@@ -44,7 +44,7 @@ There are 2 ways to get your repository url:
 2. On the website, click Code makes sure you are on the Https tab and copy to clipboard
 
 *Click Code makes sure you are on the Https tab and copy to clipboard*
-![alt text](./docs/imgs/03-Get_repositories_url.png "Get repository url")
+![alt text](/docs/imgs/03-Get_repositories_url.png "Get repository url")
 
 Now open up a command prompt on your computer, navigate to your favourite folder for storing source code and clone your repository. Your git clone command is typically
 as follows
@@ -55,7 +55,7 @@ git clone [url-to-your-repo]
 
 *Navigate to your source code folder and clone your repository*
 
-![alt text](./docs/imgs/04-Clone_repository.png "Clone your repository")
+![alt text](/docs/imgs/04-Clone_repository.png "Clone your repository")
 
 ## Commiting changes and pushing them
 
@@ -68,4 +68,4 @@ git clone [url-to-your-repo]
 
 *Status, add staged files, create a commit with a message and push*
 
-![alt text](./docs/imgs/05-git_staus_commit_push.PNG "Status, stage, commit with message and push")
+![alt text](/docs/imgs/05-git_staus_commit_push.PNG "Status, stage, commit with message and push")
