@@ -60,6 +60,8 @@ git commit -m "merge conflicts solved"
 > Watch out because now main will have overriden your changes and you need to redo them again. <br/>
 > You can go to your git web interface, find your last commit and copy it again on README.md
 
+For a more detailed explanation on how to deal with conflicts you can visit [gishub's resolve merge conflicts using command line docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line)
+
 Now you had a fast forward merge so you can go back to:
 1. checkout main 
 2. merge feature/parallel-commit
