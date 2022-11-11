@@ -1,6 +1,6 @@
 # Solving conflicts using a diff tool
 
-On [session 3: managing-conflicts](https://github.com/adriaFreixasWb/git-calisthenics/blob/feature/diff/docs/Session3.md#managing-conflicts)
+On [session 3: managing-conflicts](/docs/Session3.md#managing-conflicts)
 we saw a first way to deal with conflicts. To improve on the experience for that we are goint to learn how to use a diff tool.
 
 [Git diff](https://git-scm.com/docs/git-diff) is a way to see diffrence of a range of things, from two different files to two diffrent baranches. 
