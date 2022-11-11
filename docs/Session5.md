@@ -48,7 +48,7 @@ I hope this is everything you hopped for
 ```
 
 Now checkout main, you will see once again that the changes made on your branch are not on main.<br/>
-Now add the folowing chanes to your list-of-conflicts.txt
+Now add the folowing changes to your *list-of-conflicts.txt*
 ```
 Starting section
 ================
@@ -61,6 +61,12 @@ Conclusion
 Handle your body with the upmost respecte
 The end
 ```
+Now if you open *list-of-conflicts.txt* on visual studio code you will face something like this
 
+![alt text](/docs/imgs/12-vs-code-diff-tool.PNG "Visual studio tool")
 
-
+As you can see there are some familiar options, on top of <<<<<HEAD
+- Accept current changes is equivalent to **git checkout --ours list-of-conflicts.txt**
+- Accept Incoming changes is equivalent to **git checkout --theirs list-of-conflicts.txt**
+- Accept both changes, this will simplty leave both version of the text on the same file
+                                                                    
