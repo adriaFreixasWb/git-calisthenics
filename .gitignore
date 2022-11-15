@@ -351,3 +351,4 @@ MigrationBackup/
 
 # Ignore my secrets
 **/*secrets.json
+**/secrets.*
