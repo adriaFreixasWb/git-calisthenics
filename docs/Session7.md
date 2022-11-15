@@ -18,3 +18,16 @@ Now stage, commit and push. Once pushed, got to your git web interface and check
 
 ## Untracking a file
 
+Oops after adding our new rule, our file is till there. On a real enviroment this could cause some stress. Don't worry, there is an easy fix for that.<br/>
+As we have been doing all along we need to (stage) track a file before we can commit it to our local repository. That is what we do when we execute:
+```
+git add .
+```
+The period(.) at the end means everything, we could also have specified a file name after the add command.<br/>
+
+If there is an add command, you guessed it, there is also a remove command. We are going to use the former command to get rid of our secrets file.
+```
+git remove secrets.bymistake.txt
+```
+
+Now that we had it removed we no longer need to worry because the .git ignore will do its job.
