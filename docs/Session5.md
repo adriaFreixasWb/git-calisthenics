@@ -1,5 +1,4 @@
-# Solving conflicts using a diff tool
-
+# Solving conflicts using an editor
 On [session 3: managing-conflicts](/docs/Session3.md#managing-conflicts)
 we saw a first way to deal with conflicts. To improve our experience, we are going to learn how to use a diff tool.
 
