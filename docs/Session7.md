@@ -25,9 +25,10 @@ git add .
 ```
 The period(.) at the end means everything, we could also have specified a file name after the add command.<br/>
 
-If there is an add command, you guessed it, there is also a remove command. We are going to use the former command to get rid of our secrets file.
+If there is an add command, you guessed it, there is also a remove command (rm). But be carefule because git rm secrets.bymistake.txt will delete the file so instead:
 ```
-git remove secrets.bymistake.txt
+git rm -r --cached secrets.bymistake.txt
+git commit -a -m "Remove secrets files"
 ```
 
 Now that we had it removed we no longer need to worry because the .git ignore will do its job.
