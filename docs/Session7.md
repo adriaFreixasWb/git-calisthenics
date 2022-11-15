@@ -1,1 +1,1 @@
-# Untrack secret fiels to avoiod having passwords stored on your repository
+# Untrack secret files to avoid having your passwords stored on your repository
