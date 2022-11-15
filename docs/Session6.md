@@ -1,16 +1,16 @@
 # Make git ignore certain files
 
-Most times when working, our tools generate files that are not central to our developent. That is that whenever another team member pick them they are useless for them, for example configuration files for Visual studio, Postman status files, etc.<br/>
+Most times when working, our tools generate files that are not central to our developent. That is that whenever another team member picks them, those are useless for them, for example configuration files for Visual studio, Postman status files, etc.<br/>
 Git has a certain type of file called .gitignore that store a set of rules for files that need to be ignored.
 
 ## Git ignore
 
-Now execute the folowing steps:
+Now execute the following steps:
 1. Go to the root folder of you local repository
 2. Look for .gitignore file (if it is not there, create a .gitignore file)
 3. Edit your .gitignore file and add the rule from *Fig 1.0*
 
-The following rule means that at any directory(```**/```) exclude the files ended with secrets.json(```*secrets.json```).
+The following rule means that at any directory (```**/```) exclude the files ended with secrets.json (```*secrets.json```).
 *Fig 1.0*
 ```
 **/*secrets.json
@@ -18,7 +18,7 @@ The following rule means that at any directory(```**/```) exclude the files ende
 
 ## Creating secrets for your application
 
-Lets make things intersting for git when ignoring files:
+Let's make things interesting for git when ignoring files:
 
 1. Create a *folder* called **Settings**, then *subfolder* called **Development**, then a *subfolder* called **Values** (this is to make it cumbersome for git to ignore a file)
 2. Create a *file* called **mysuper.secrets.json** at *Settings/Development/Values*

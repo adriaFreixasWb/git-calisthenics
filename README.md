@@ -7,3 +7,4 @@ Learn git bash using 10 minutes a day
 - [Session 4: Rename your branch](./docs/Session4.md)
 - [Session 5: Solving conflicts using an editor](./docs/Session5.md)
 - [Session 6: Make git ignore certain files](./docs/Session6.md)
+- [Session 7: Untrack secret fiels to avoiod having passwords stored on your repository](./docs/Session7.md)
