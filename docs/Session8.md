@@ -2,10 +2,13 @@
 
 Up until now we never paid much attention to what happened behind the scenes with our commits
 So let's review our commits to see what happened in the past.
+You have to ways two do that: <br/>
+[Review through remote website](#Review-your-commits-through-your-git-web-interface) <br/>
+[Review using git log](#Review-your-commits-Git-logs)
 
 ## Review your commits through your git web interface
 
-To review your commit history, do:
+To review your commit history, do as follows:
 1. Visit your git web interface
 2. Make sure you are at the code tab
 3. Look for the header of the table that list all your files
@@ -27,14 +30,32 @@ You can do the same that you did on the former section with the following comman
 ```
 git log
 ```
-Press **q** to exit git logs, or press enter to continues seeing next log page.
+> Press **q** to exit git logs, or press enter to continues seeing next log page.
 
 You will get a page like the following.
-![alt text](./imgs/16-git-log.png"Commit detail")
+![alt text](./imgs/16-git-log.png "Commit detail")
 
-As you can see every commit has a hashed number beside like commit d21cd9479bc7a3ed6b55b57a696aeb1448fcd7fb. Also notice the HEAD -> main, origin/main, origin/HEAD, bugfix/delete-last-commit)
+As you can see every commit has a hashed number beside like commit d21cd9479bc7a3ed6b55b57a696aeb1448fcd7fb. Also notice:
+```
+HEAD -> main, origin/main, origin/HEAD, bugfix/delete-last-commit)
+```
 
-## HEAD on git 
+## Commits: what are they?
+
+Commits are the core building block units of a Git project timeline. Commits can be thought of as snapshots or milestones along the timeline of a Git project
+Git’s version control model is based on snapshots. Git, records the entire contents of each file in every commit.
+
+Therefore you don't have to worry losing increments, every commit has as snapshot of the full file and can be checked out as if it were a branch to see what was going on at that point.
+
+## Checking out commits
+
+Another intersting thing about commits is that they have a hash number that identifies them.<br/>
+Remember [Review your commits with git logs section](#review-your-commits-git-logs), as a title of every commit:
+```
+commit [hash-number-identifier]
+```
+
+### Moving git's HEAD 
 
 HEAD is where de repository is pointing at. **(HEAD -> main** means that our local head is up to date with all commit at main branch.
 
@@ -80,9 +101,3 @@ git switch -
 
 And you would be back to main.
 
-## Commits: what are they?
-
-Commits are the core building block units of a Git project timeline. Commits can be thought of as snapshots or milestones along the timeline of a Git project
-Git’s version control model is based on snapshots. Git, records the entire contents of each file in every commit.
-
-There fore you don't have to worry losing increments, every commit has as snapshot of the full file and, as we saw on the above section, can be checked out as if it were a branch to see what was going on at that point.
