@@ -8,3 +8,4 @@ Learn git bash using 10 minutes a day
 - [Session 5: Solving conflicts using an editor](./docs/Session5.md)
 - [Session 6: Make git ignore certain files](./docs/Session6.md)
 - [Session 7: Untrack secret files to avoid having your passwords stored on your repository](./docs/Session7.md)
+- [Session 8: Git history](./docs/Session8.md)

@@ -81,3 +81,8 @@ git switch -
 And you would be back to main.
 
 ## Commits: what are they?
+
+Commits are the core building block units of a Git project timeline. Commits can be thought of as snapshots or milestones along the timeline of a Git project
+Git’s version control model is based on snapshots. Git, records the entire contents of each file in every commit.
+
+There fore you don't have to worry losing increments, every commit has as snapshot of the full file and, as we saw on the above section, can be checked out as if it were a branch to see what was going on at that point.

@@ -68,3 +68,20 @@ Now our changes have overriten the ones from master and we have solve the confli
 5. git push
 
 Now checkout at your git web interface that all your new change are stored at main and you are golden.
+
+## resset many commits
+
+To go back 2 commits 
+```
+git reset --hard HEAD~2
+```
+
+To go back 3 commits
+```
+git reset --hard HEAD~3
+```
+
+To go back to as pecific commit (you need to know the hash)
+```
+git reset --hard <hash>
+```
