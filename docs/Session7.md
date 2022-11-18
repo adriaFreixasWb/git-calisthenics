@@ -14,7 +14,7 @@ To fix that mistake wi will add another rule to cover this instance fore exampel
  **/secrets.*
 ```
 
-Now stage, commit and push. Once pushed, got to your git web interface and check if the file is there.
+Now stage, commit and push. Once pushed, go to your git web interface and check if the file is there.
 
 ## Untracking a file
 
