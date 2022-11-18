@@ -8,7 +8,7 @@ For our current session we will use [visual studio code](https://code.visualstud
 
 ## Creating mulitple conflicts on the same file
 
-From main branch, create a new file called list-of-conflicts.txt writte the follwing on it
+From main branch, create a new file called list-of-conflicts.txt write the following on it
 
 ```
 Starting section
@@ -34,7 +34,7 @@ Starting section
 The sun is a start
 Introduction
 ------------
-Have you ever gone sunbathing at the bitch
+Have you ever gone sunbathing at the beatch
 Body
 ----
 Summer is nice and a time for the outdoors
@@ -47,17 +47,17 @@ I hope this is everything you hopped for
 ```
 
 Now checkout main, you will see once again that the changes made on your branch are not on main.<br/>
-Now add the folowing changes to your *list-of-conflicts.txt*
+Now add the following changes to your *list-of-conflicts.txt*
 ```
 Starting section
 ================
 This is a start
 Body
 ----
-Your boady is your best friend
+Your body is your best friend
 Conclusion
 ----------
-Handle your body with the upmost respecte
+Handle your body with the upmost respect
 The end
 ```
 Now if you open *list-of-conflicts.txt* on visual studio code you will face something like this
