@@ -39,7 +39,7 @@ If you click at the name or the hash number of any of the above you will see you
 
 ## Review your commits Git logs
 
-You can do the same this as you did at the [former section](#Review-your-commits-through-your-git-web-interface) with the following command:
+You can do the same as you did at the [former section](#Review-your-commits-through-your-git-web-interface) with the following command:
 ```
 git log
 ```
@@ -47,13 +47,6 @@ git log
 
 You will get a page like the following.
 ![alt text](./imgs/16-git-log.png "Commit detail")
-
-## Commits: what are they?
-
-Commits are the core building block units of a Git project timeline. Commits can be thought of as snapshots or milestones along the timeline of a Git project
-Git’s version control model is based on snapshots. Git, records the entire contents of each file in every commit.
-
-Therefore you don't have to worry losing increments, every commit has as snapshot of the full file and can be checked out as if it were a branch to see what was going on at that point.
 
 ## Checking out commits
 
