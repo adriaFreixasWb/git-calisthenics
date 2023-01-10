@@ -16,5 +16,3 @@ Create a new branch as we practice called **feature/revert-commit**, then:
 - Merge **feature/revert-commit**
 - Now look at your commit history with git log
 - From git log take the commit has that you want to undo.
-
-Lets say your commi
