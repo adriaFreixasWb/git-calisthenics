@@ -69,7 +69,7 @@ Now our changes have overriten the ones from master and we have solve the confli
 
 Now checkout at your git web interface that all your new change are stored at main and you are golden.
 
-## resset many commits
+## Reset many commits
 
 To go back 2 commits 
 ```
