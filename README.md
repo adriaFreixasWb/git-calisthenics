@@ -12,3 +12,5 @@ Learn git bash using 10 minutes a day
 - [Session 9: Moving gits HEAD](./docs/Session9.md)
 - [Session 10: Undo last commit](./docs/Session10.md)
 - [Session 11: Revert commit](./docs/Session11.md)
+
+change
